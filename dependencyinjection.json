@@ -1,0 +1,18 @@
+{
+    "namespace": "irestful",
+    "name": "concretebooleans",
+    "externals": ["vendors://irestful/concreteobjectloaders/dependencyinjection.json"],
+    "objects": {
+        "adapter": {
+            "class": "ConcreteBooleans\\Infrastructure\\Adapters\\ConcreteBooleanAdapter",
+            "dependencies": ["builderfactory"]
+        },
+        "builderfactory": {
+            "class": "ConcreteBooleans\\Infrastructure\\Factories\\ConcreteBooleanBuilderFactory",
+            "dependencies": ["irestful.concreteobjectloaders.adapter"]
+        },
+        "irestful.concreteobjectloaders.adapter" : {
+            "class": "ConcreteDependencyInjectionObjectPlaceHolders\\Infrastructure\\Objects\\ConcreteDependencyInjectionObjectPlaceHolder"
+        }
+    }
+}
