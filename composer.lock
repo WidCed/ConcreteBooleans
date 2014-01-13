@@ -549,12 +549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/irestful/ConcreteDependencyInjections.git",
-                "reference": "f4b08c9bca482cb1cd3e3eff598cfeb93d7dcadf"
+                "reference": "46c86bb00afe09779ab9dc08f335979569e3a864"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjections/zipball/f4b08c9bca482cb1cd3e3eff598cfeb93d7dcadf",
-                "reference": "f4b08c9bca482cb1cd3e3eff598cfeb93d7dcadf",
+                "url": "https://api.github.com/repos/irestful/ConcreteDependencyInjections/zipball/46c86bb00afe09779ab9dc08f335979569e3a864",
+                "reference": "46c86bb00afe09779ab9dc08f335979569e3a864",
                 "shasum": ""
             },
             "require": {
@@ -582,7 +582,7 @@
                 }
             ],
             "homepage": "https://github.com/irestful/ConcreteDependencyInjections",
-            "time": "2014-01-12 08:53:24"
+            "time": "2014-01-13 08:26:23"
         },
         {
             "name": "irestful/concretefunctionaltesthelpers",
@@ -590,12 +590,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/irestful/ConcreteFunctionalTestHelpers.git",
-                "reference": "3cd31eb107358c49d6df7191fc16edeee3ff291e"
+                "reference": "864b90a8bd919efbf5a60a79e7dcbca76a2a1770"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irestful/ConcreteFunctionalTestHelpers/zipball/3cd31eb107358c49d6df7191fc16edeee3ff291e",
-                "reference": "3cd31eb107358c49d6df7191fc16edeee3ff291e",
+                "url": "https://api.github.com/repos/irestful/ConcreteFunctionalTestHelpers/zipball/864b90a8bd919efbf5a60a79e7dcbca76a2a1770",
+                "reference": "864b90a8bd919efbf5a60a79e7dcbca76a2a1770",
                 "shasum": ""
             },
             "require": {
@@ -629,7 +629,7 @@
                 }
             ],
             "homepage": "https://github.com/irestful/ConcreteFunctionalTestHelpers",
-            "time": "2014-01-12 21:04:31"
+            "time": "2014-01-13 08:51:11"
         },
         {
             "name": "irestful/concreteobjectloaders",
@@ -678,12 +678,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/irestful/ConcretePrimitives.git",
-                "reference": "f7a96deb71912a7a6fc5bb79a56020ac7a869cc5"
+                "reference": "52f2fe8f4fef006848070b7bcd56884452028b5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irestful/ConcretePrimitives/zipball/f7a96deb71912a7a6fc5bb79a56020ac7a869cc5",
-                "reference": "f7a96deb71912a7a6fc5bb79a56020ac7a869cc5",
+                "url": "https://api.github.com/repos/irestful/ConcretePrimitives/zipball/52f2fe8f4fef006848070b7bcd56884452028b5f",
+                "reference": "52f2fe8f4fef006848070b7bcd56884452028b5f",
                 "shasum": ""
             },
             "require": {
@@ -711,7 +711,7 @@
                 }
             ],
             "homepage": "https://github.com/irestful/ConcretePrimitives",
-            "time": "2014-01-03 06:45:04"
+            "time": "2014-01-13 06:10:17"
         },
         {
             "name": "irestful/dependencyinjectionapplications",

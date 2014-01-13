@@ -7,14 +7,12 @@ use ConcreteClassAnnotationObjects\Infrastructure\Objects\ConcreteValue;
 final class ConcreteBooleanTest extends \PHPUnit_Framework_TestCase {
     
     private $dependencyInjectionFunctionTestHelper;
-    private $dependencyInjectionApplication;
     private $jsonFilePathElement;
     private $classAnnotationsData;
     private $classAnnotationsHelper;
     public function setUp() {
         
         $this->dependencyInjectionFunctionTestHelper = new ConcreteDependencyInjectionFunctionalTestHelper(__DIR__.'/../../../../vendor');
-        $this->dependencyInjectionApplication = $this->dependencyInjectionFunctionTestHelper->getDependencyInjectionApplication();
         
         $this->jsonFilePathElement = realpath(__DIR__.'/../../../../dependencyinjection.json');
         
@@ -31,7 +29,7 @@ final class ConcreteBooleanTest extends \PHPUnit_Framework_TestCase {
     
     public function testCreateObjects_Success() {
         
-        $objectsData = $this->dependencyInjectionApplication->execute($this->jsonFilePathElement);
+        $objectsData = $this->dependencyInjectionFunctionTestHelper->getMultipleFileDependencyInjectionApplication()->execute($this->jsonFilePathElement);
         
         $this->assertTrue($objectsData['irestful.concreteobjectloaders.adapter'] instanceof \ConcreteObjectLoaders\Infrastructure\Adapters\ConcreteObjectLoaderAdapter);
         $this->assertTrue($objectsData['irestful.concreteobjectloaders.builderfactory'] instanceof \ConcreteObjectLoaders\Infrastructure\Factories\ConcreteObjectLoaderBuilderFactory);
