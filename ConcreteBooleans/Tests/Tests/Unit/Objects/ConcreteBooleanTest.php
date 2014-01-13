@@ -53,4 +53,16 @@ class ConcreteBooleanTest extends \PHPUnit_Framework_TestCase {
         $this->assertTrue($asserted);
     }
     
+    public function testConcreteClassIsFinal_Success() {
+        
+        $reflectionClass = new \ReflectionClass('ConcreteBooleans\Infrastructure\Objects\ConcreteBoolean');
+        $this->assertTrue($reflectionClass->isFinal());
+        
+    }
+    
+    public function testImplementsRightInterface_Success() {
+        
+        $this->assertTrue($this->factory instanceof \Booleans\Domain\Booleans\Boolean);
+        
+    }
 }

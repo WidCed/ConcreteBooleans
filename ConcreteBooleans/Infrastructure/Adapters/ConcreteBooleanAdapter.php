@@ -5,7 +5,7 @@ use Booleans\Domain\Booleans\Builders\Factories\BooleanBuilderFactory;
 use Primitives\Domain\Primitives\Builders\Exceptions\CannotBuildPrimitiveException;
 use Primitives\Domain\Primitives\Adapters\Exceptions\CannotConvertElementToPrimitiveException;
 
-class ConcreteBooleanAdapter implements BooleanAdapter {
+final class ConcreteBooleanAdapter implements BooleanAdapter {
     
     private $booleanBuilderFactory;
     public function __construct(BooleanBuilderFactory $booleanBuilderFactory) {

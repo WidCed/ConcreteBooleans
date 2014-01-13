@@ -27,4 +27,16 @@ class ConcreteBooleanBuilderFactoryTest extends \PHPUnit_Framework_TestCase {
         
     }
     
+    public function testConcreteClassIsFinal_Success() {
+        
+        $reflectionClass = new \ReflectionClass(get_class($this->factory));
+        $this->assertTrue($reflectionClass->isFinal());
+        
+    }
+    
+    public function testImplementsRightInterface_Success() {
+        
+        $this->assertTrue($this->factory instanceof \Booleans\Domain\Booleans\Builders\Factories\BooleanBuilderFactory);
+        
+    }
 }

@@ -62,4 +62,16 @@ class ConcreteBooleanAdapterTest extends \PHPUnit_Framework_TestCase {
         $this->assertTrue($asserted);
     }
     
+    public function testConcreteClassIsFinal_Success() {
+        
+        $reflectionClass = new \ReflectionClass(get_class($this->adapter));
+        $this->assertTrue($reflectionClass->isFinal());
+        
+    }
+    
+    public function testImplementsRightInterface_Success() {
+        
+        $this->assertTrue($this->adapter instanceof \Booleans\Domain\Booleans\Adapters\BooleanAdapter);
+        
+    }
 }

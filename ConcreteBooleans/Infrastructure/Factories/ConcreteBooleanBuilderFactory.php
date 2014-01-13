@@ -4,7 +4,7 @@ use Booleans\Domain\Booleans\Builders\Factories\BooleanBuilderFactory;
 use ConcretePrimitives\Infrastructure\Builders\ConcretePrimitiveBuilder;
 use ObjectLoaders\Domain\ObjectLoaders\Adapters\ObjectLoaderAdapter;
 
-class ConcreteBooleanBuilderFactory implements BooleanBuilderFactory {
+final class ConcreteBooleanBuilderFactory implements BooleanBuilderFactory {
     
     private $objectLoaderAdapter;
     public function __construct(ObjectLoaderAdapter $objectLoaderAdapter) {
