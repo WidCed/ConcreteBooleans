@@ -637,12 +637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/irestful/ConcreteObjectLoaders.git",
-                "reference": "6d0ca22686165314e4ef7500f525fb74b8147911"
+                "reference": "21470546b7c9b3f6875229995f83406b51be0d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irestful/ConcreteObjectLoaders/zipball/6d0ca22686165314e4ef7500f525fb74b8147911",
-                "reference": "6d0ca22686165314e4ef7500f525fb74b8147911",
+                "url": "https://api.github.com/repos/irestful/ConcreteObjectLoaders/zipball/21470546b7c9b3f6875229995f83406b51be0d71",
+                "reference": "21470546b7c9b3f6875229995f83406b51be0d71",
                 "shasum": ""
             },
             "require": {
@@ -670,7 +670,7 @@
                 }
             ],
             "homepage": "https://github.com/irestful/ConcreteObjectLoaders",
-            "time": "2014-01-12 21:12:09"
+            "time": "2014-01-13 08:55:07"
         },
         {
             "name": "irestful/concreteprimitives",

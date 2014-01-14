@@ -62,7 +62,8 @@ class ConcreteBooleanTest extends \PHPUnit_Framework_TestCase {
     
     public function testImplementsRightInterface_Success() {
         
-        $this->assertTrue($this->factory instanceof \Booleans\Domain\Booleans\Boolean);
+        $boolean = new ConcreteBoolean(false);
+        $this->assertTrue($boolean instanceof \Booleans\Domain\Booleans\Boolean);
         
     }
 }
