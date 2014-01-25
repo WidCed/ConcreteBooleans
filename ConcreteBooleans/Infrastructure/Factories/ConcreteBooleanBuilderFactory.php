@@ -12,7 +12,7 @@ final class ConcreteBooleanBuilderFactory implements BooleanBuilderFactory {
     }
     
     public function create() {
-        return new ConcretePrimitiveBuilder($this->objectLoaderAdapter, 'Booleans\Domain\Booleans\Boolean');
+        return new ConcretePrimitiveBuilder($this->objectLoaderAdapter, 'ConcreteBooleans\Infrastructure\Objects\ConcreteBoolean');
     }
     
 }

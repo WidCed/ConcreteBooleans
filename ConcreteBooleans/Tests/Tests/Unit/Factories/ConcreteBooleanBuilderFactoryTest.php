@@ -11,7 +11,7 @@ class ConcreteBooleanBuilderFactoryTest extends \PHPUnit_Framework_TestCase {
     public function setUp() {
         $this->objectLoaderAdapterMock = $this->getMock('ObjectLoaders\Domain\ObjectLoaders\Adapters\ObjectLoaderAdapter');
         $this->factory = new ConcreteBooleanBuilderFactory($this->objectLoaderAdapterMock);
-        $this->builder = new ConcretePrimitiveBuilder($this->objectLoaderAdapterMock, 'Booleans\Domain\Booleans\Boolean');
+        $this->builder = new ConcretePrimitiveBuilder($this->objectLoaderAdapterMock, 'ConcreteBooleans\Infrastructure\Objects\ConcreteBoolean');
     }
     
     public function tearDown() {

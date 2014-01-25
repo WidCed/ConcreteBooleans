@@ -33,8 +33,13 @@ final class ConcreteBooleanTest extends \PHPUnit_Framework_TestCase {
         
         $this->assertTrue($objectsData['irestful.concreteobjectloaders.adapter'] instanceof \ConcreteObjectLoaders\Infrastructure\Adapters\ConcreteObjectLoaderAdapter);
         $this->assertTrue($objectsData['irestful.concreteobjectloaders.builderfactory'] instanceof \ConcreteObjectLoaders\Infrastructure\Factories\ConcreteObjectLoaderBuilderFactory);
-        $this->assertTrue($objectsData['adapter'] instanceof \ConcreteBooleans\Infrastructure\Adapters\ConcreteBooleanAdapter);
         $this->assertTrue($objectsData['builderfactory'] instanceof \ConcreteBooleans\Infrastructure\Factories\ConcreteBooleanBuilderFactory);
+        
+        $boolean = $objectsData['builderfactory']->create()
+                                                    ->withElement(true)
+                                                    ->now();
+        
+        $this->assertTrue($boolean instanceof \ConcreteBooleans\Infrastructure\Objects\ConcreteBoolean);
     }
     
     public function testAnnotations_Success() {
