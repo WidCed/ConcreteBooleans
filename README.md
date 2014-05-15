@@ -12,3 +12,5 @@ d
 v
 l
 travis
+
+test
