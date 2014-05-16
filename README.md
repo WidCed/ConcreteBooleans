@@ -1,8 +1,2 @@
 ConcreteBooleans
 ================
-
-j
-
-p
-
-l
