@@ -22,3 +22,5 @@ la
 li
 
 lo
+
+ft
